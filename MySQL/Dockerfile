@@ -1,0 +1,5 @@
+FROM mysql:8
+
+ENV MYSQL_DB = mydb
+ENV MYSQL_USER=myuser
+ENV MYSQL_PASSWORD=mypassword
